@@ -8,8 +8,7 @@ import json  # Para manejar datos en formato JSON
 import time
 from typing import Dict, List, Optional, Tuple # Para especificar tipos de datos
 
-import snowflake.connector  # Para interactuar con APIs específicas de Snowflake
-from snowflake.snowpark.context import Session  # Si estás usando Snowpark
+import _snowflake  # Para interactuar con APIs específicas de Snowflake
 import pandas as pd # Manipular y analizar datos
 import streamlit as st  # Biblioteca Streamlit para construir la aplicación web
 from snowflake.snowpark.context import (
