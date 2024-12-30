@@ -2,5 +2,4 @@
 snowflake-snowpark-python
 streamlit
 snowflake-connector-python
-requests
 pandas
